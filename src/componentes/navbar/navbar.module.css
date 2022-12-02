@@ -1,0 +1,181 @@
+
+
+  @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
+.div {
+   background: #15056a;
+    padding: 50px 0;
+    height: 70px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .nav {
+    font-family: 'Titillium Web';
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    right: 20%;
+    top: -44px;
+  }
+  
+  .nav * {
+    box-sizing: border-box;
+    transition: all .35s ease;
+  }
+  
+  .nav li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: .5em 1em;
+    padding: 0;
+    
+  }
+  
+  .nav h3 {
+    padding: .5em .8em;
+    color: rgba(255,255,255,.5);
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .nav h3::before,
+  .nav h3::after {
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
+  }
+  
+  .nav h3::before {
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid #f8f7ff;
+    border-right:3px solid #f8f7ff;
+    transform: translate(-100%, 50%);
+  }
+  
+  .nav h3:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom:3px solid #f8f7ff;
+    border-left:3px solid #f8f7ff;
+    transform: translate(100%, -50%)
+  }
+  
+  .nav h3:hover:before,
+  .nav h3:hover:after{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+ 
+
+  .select{
+    height: 34px;
+    background-color: rgba(255,255,255,.5);
+
+  }
+ .select{ 
+    background-color: rgba(255,255,255,.5);
+  }
+
+
+  
+  @media(max-width: 723px){
+    .div {
+      background: #15056a;
+       padding: 50px 0;
+       height: 220px;
+       display:flex;
+       align-items: center;
+       justify-content: center;
+   
+     }
+   
+     .nav {
+       font-family: 'Titillium Web';
+       text-transform: uppercase;
+       text-align: center;
+       font-weight: 600;
+       position: relative;
+       right: 6%;
+       top: -0px;
+     }
+     
+     .nav * {
+       box-sizing: border-box;
+       transition: all .35s ease;
+     }
+     
+     .nav li {
+       display: inline-block;
+       list-style: outside none none;
+       margin: .5em 1em;
+       padding: 0;
+       
+     }
+     
+     .nav h3 {
+       padding: .5em .8em;
+       color: rgba(255,255,255,.5);
+       position: relative;
+       text-decoration: none;
+       font-size: 12px;
+     }
+     
+     .nav h3::before,
+     .nav h3::after {
+       content: '';
+       height: 14px;
+       width: 14px;
+       position: absolute;
+       transition: all .35s ease;
+       opacity: 0;
+     }
+     
+     .nav h3::before {
+       content: '';
+       right: 0;
+       top: 0;
+       border-top: 3px solid #f8f7ff;
+       border-right:3px solid #f8f7ff;
+       transform: translate(-100%, 50%);
+     }
+     
+     .nav h3:after {
+       content: '';
+       left: 0;
+       bottom: 0;
+       border-bottom:3px solid #f8f7ff;
+       border-left:3px solid #f8f7ff;
+       transform: translate(100%, -50%)
+     }
+     
+     .nav h3:hover:before,
+     .nav h3:hover:after{
+       transform: translate(0,0);
+       opacity: 1;
+     }
+    
+   
+     .select{
+       height: 34px;
+       background-color: rgba(255,255,255,.5);
+   
+     }
+    .select{ 
+       background-color: rgba(255,255,255,.5);
+     }
+   
+
+
+    
+  }
+

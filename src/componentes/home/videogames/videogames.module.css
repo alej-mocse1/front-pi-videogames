@@ -1,0 +1,98 @@
+.div1{
+    text-align: center; 
+}
+.div{
+    height: 1400px;
+    width: 95%;
+    text-align: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4.200px);
+    position: relative;
+    top: 100px;
+    left: 2%;
+    border: 4px solid black;
+    border-radius: 25px;
+}
+.botones{
+    position: relative;
+    top: 180px;
+}
+.boton{
+    border: 1px solid black;
+    height: 25px;
+    width: 10%;
+    font-size: 20px;
+    color: white;
+    background-color: #15056a;
+    position: relative;
+    top: -30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.boton:hover{
+    color:  #15056a;;
+    background-color: white;
+    height: 28px;
+    width: 11%;
+    transition: .5s;
+    cursor: pointer
+} 
+ .muestra{
+position: relative;
+left: 47.5%;
+top: -80px;
+width: 5%;
+display: block;
+margin-left: 1px;
+margin-right:1px ;
+} 
+
+
+ style.Pnombre{
+    position: absolute;
+    color: white;
+
+}
+
+
+@media(max-width: 723px){
+    .div{
+        height: 4400px;
+        width: 95%;
+        text-align: center;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4.200px);
+        position: relative;
+        top: 100px;
+        left: 2%;
+        border: 4px solid black;
+        border-radius: 25px;
+        
+    }
+
+    .boton{
+        border: 1px solid black;
+        height: 25px;
+        width: 22%;
+        font-size: 20px;
+        color: white;
+        background-color: #15056a;
+        position: relative;
+        top: -30px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .boton:hover{
+        color:  #15056a;;
+        background-color: white;
+        height: 28px;
+        width: 25%;
+        transition: .5s;
+        cursor: pointer
+    } 
+  
+  }
