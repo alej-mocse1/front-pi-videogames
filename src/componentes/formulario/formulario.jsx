@@ -272,7 +272,7 @@ const subirVideojuego = () => {
    { !err.nombre  && !err.description  && !err.Fecha_de_lanzamiento  && !err.Rating  && !err.imagen_backgrund &&  !err.generes &&  !err.Plataformas &&
    (<button type="submit" className={style.boton} onClick={subirVideojuego}>crear video juego</button>)}           
       
-    <img src="https://wizee.fr/wp-content/uploads/2022/04/1650888283_Contenu-gratuit-pour-Gran-Turismo%C2%AE-7-Nouveautes-de-la-derniere.jpg" className={style.img} />
+    <img src="https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2017/12/bugatti-vision-gran-turismo.jpg" className={style.img} />
 
 
            

@@ -13,7 +13,7 @@ export const LIMPIAR_STATE = 'LIMPIAR_STATE'
 
 export const getVideoGames = () => { 
     return function(dispatch) {
-           return fetch("/videogames")
+           return fetch("https://back-pivideogames-production.up.railway.app/videogames")
                .then(response => response.json())
                .then(data => dispatch({ type: GET_ALL_VIDEOGAMES , payload: data }))
            };
@@ -21,7 +21,7 @@ export const getVideoGames = () => {
 
 export const getVideoGamesid = (id) => { 
     return function(dispatch) {
-        return fetch(`/videogames/${id}`)
+        return fetch(`https://back-pivideogames-production.up.railway.app/videogames/${id}`)
             .then(response => response.json())
             .then(data => dispatch({ type: GET_VIDEOGAME_ID , payload: data }))
         };
@@ -30,7 +30,7 @@ export const getVideoGamesid = (id) => {
 
 export const getSearchVideoGames15 = (name) => { 
     return function(dispatch) {
-        return fetch(`/videogames?search=${name}`)
+        return fetch(`https://back-pivideogames-production.up.railway.app/videogames?search=${name}`)
             .then(response => response.json())
             .then(data => dispatch({ type: GET_SEARCHVIDEOGAMES , payload: data }))
         };
