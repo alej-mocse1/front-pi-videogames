@@ -9,6 +9,10 @@ import PaginaInicial from "./componentes/PaginaInicial/paginaincial";
 import SearchVideoGame15 from './componentes/SeacrhVideogames15/SearchVideoGames15';
 import Contactanos from './componentes/contactanos/contactanos'
 
+import axios from 'axios'
+// axios.defaults.baseURL = 'http://localhost:3003';
+axios.defaults.baseURL = 'https://back-pivideogames-production.up.railway.app/';
+
 
 
 
