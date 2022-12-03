@@ -29,7 +29,7 @@
 
 
 
-@media(max-width:723px){
+@media(max-width:760px){
   .div{
     /* border: 2px solid black;  */
     height: 35px;
@@ -46,9 +46,10 @@
     height: 30px;   
     border-radius: 5px;
     font-size: 15px;
-    position: relative;
+    position: absolute;
     top: -40px;
-    left: 25px;
+    left:  80%;
+    display: inline-block;
   }
    
    .select2{
@@ -56,9 +57,10 @@
     height: 30px;   
     border-radius: 5px;
     font-size: 15px;
-    position: relative;
-    left: 500%;
-    top: -70px;
+    position: absolute;
+    top: -40px;
+    left:  500%;
+    display: inline-block;
    
    }
 }

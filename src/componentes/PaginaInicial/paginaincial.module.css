@@ -26,7 +26,7 @@
 
 
 
-  @media(max-width: 730px){
+  @media(max-width: 760px){
     .div{
       display: flex;
       
@@ -34,7 +34,7 @@
     .img{
       position: absolute;
       width: 100%;
-      height: 760px;
+      height: 100vh;
     }
     .home{
       height: 20px;

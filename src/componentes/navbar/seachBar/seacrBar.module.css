@@ -30,18 +30,18 @@ top: 20px;
 }
 
  
-@media(max-width: 723px){
+@media(max-width: 760px){
   
     .divInput{
     
         width: 90%;
         position: absolute;
-        left: 6%;
+        left: 4%;
         top: 2px;
         }
         .input{
             height: 25px;
-            width: 80%;
+            width: 79%;
             border: 1px solid rgb(33, 32, 32);
             border-radius: 3px;
         }
