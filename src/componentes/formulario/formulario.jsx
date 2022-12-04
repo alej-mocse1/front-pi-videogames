@@ -139,7 +139,7 @@ const Formulario = () => {
 const subirVideojuego = () => {
 
 
-  axios.post('http://localhost:3003/videogames', {
+  axios.post('https://back-pivideogames-production.up.railway.app/videogames', {
           nombre: input.nombre,
           description: input.description,
           Fecha_de_lanzamiento: input.Fecha_de_lanzamiento,
