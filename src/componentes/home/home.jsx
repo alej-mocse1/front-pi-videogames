@@ -1,10 +1,11 @@
-
 import React from "react";
-import Style from "./home.module.css";
 import { useDispatch , useSelector } from 'react-redux';
 import { getVideoGames } from '../../redux/actions/actions.js';
 import { useEffect , useState } from 'react';
 import Videogames from "./videogames/videogames";
+import Carrusel from "./carrusel/carrusel.jsx";
+import style from './home.module.css'
+
 
 
 
@@ -23,6 +24,9 @@ dispatch(getVideoGames())
 
     return (
         <div >
+          <div className={style.div}>
+          <Carrusel></Carrusel>
+          </div>
           <Videogames  arr={result}></Videogames>
         </div>
       );

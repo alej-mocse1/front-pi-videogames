@@ -7,10 +7,7 @@ import Formulario from './componentes/formulario/formulario';
 import VideoGameId from './componentes/videogameId/videogameId';
 import PaginaInicial from "./componentes/PaginaInicial/paginaincial";
 import SearchVideoGame15 from './componentes/SeacrhVideogames15/SearchVideoGames15';
-import Contactanos from './componentes/contactanos/contactanos'
-
-
-
+import Contactanos from './componentes/contactanos/contactanos';
 
 
 function App() {

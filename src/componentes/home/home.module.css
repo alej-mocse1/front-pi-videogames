@@ -1,0 +1,9 @@
+.div{
+
+    height: 490px;
+    width: 100%;
+    position: relative;
+    top: 30px;
+    background-color: rgb(255, 239, 239);
+    box-shadow: 1px solid black;
+}

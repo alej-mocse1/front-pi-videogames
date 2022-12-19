@@ -174,3 +174,430 @@
     }
   
   }
+
+
+   
+          /* ////////////////   tw //////////////////////// */
+          .divcontact{
+            position: relative;
+            top: 140px;
+            /* border: 1px solid black; */
+            width: 10%;
+            height: 130px;
+          }
+
+          .tw {
+            background: transparent;
+            position: absolute;
+            left: 1.5%;
+            padding: 5px 15px;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            border: 1px solid rgb(40, 144, 241);
+            border-radius: 25px;
+            outline: none;
+            overflow: hidden;
+            color: rgb(40, 144, 241);
+            transition: color 0.3s 0.1s ease-out;
+            text-align: center;
+          }
+          
+          .tw span {
+            margin: 10px;
+          }
+          
+          .tw::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            content: '';
+            border-radius: 50%;
+            display: block;
+            width: 20em;
+            height: 20em;
+            left: -5em;
+            text-align: center;
+            transition: box-shadow 0.5s ease-out;
+            z-index: -1;
+          }
+          
+          .tw:hover {
+            color: #fff;
+            border: 1px solid rgb(40, 144, 241);
+          }
+          
+          .tw:hover::before {
+            box-shadow: inset 0 0 0 10em rgb(40, 144, 241);
+          }
+           
+
+
+
+
+
+
+          /* ///////////////////////// ig /////////////////////////*/
+
+  /* From uiverse.io by @alshahwan */
+  .ig {
+  background-color: #fff;
+  border: 1px solid #bc2a8d;
+  padding: 5px;
+  position: relative;
+  top: 115px;
+  /* right: 21%; */
+  /* top: 130px;
+  left: 3%; */
+  width: 8.2em;
+  height: 2.2em;
+  transition: 0.5s;
+  font-size: 15px;
+  border-radius: 0.4em;
+  cursor: pointer;
+}
+
+.ig p {
+  position: absolute;
+  top: 0.4em;
+  left: 1.2em;
+  margin: 0;
+  padding: 0;
+  transition: .5s;
+  color: #bc2a8d;
+}
+
+.ig svg {
+  position: absolute;
+  top: 0.45em;
+  right: 0.5em;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  transition: 0.5s;
+  height: 1em;
+  fill: #fff
+}
+
+.ig:hover p {
+  left: 0.6em;
+  color: #fff;
+
+}
+
+.ig:hover svg {
+  opacity: 1;
+}
+
+.ig:hover {
+  background-color: #bc2a8d;
+}
+
+          
+     /* ////////////////   wsp  /////////////////////// */
+          
+
+     .wsp {
+      background-color: #fff;
+      border: 1px solid #25D366;
+      padding: 5px;
+      position: relative;
+      right: 2%;
+      top: 30px;
+      width: 6.9em;
+      height: 2.1em;
+      transition: 0.5s;
+      font-size: 17px;
+      border-radius: 0.4em;
+      cursor: pointer;
+    }
+    
+    .wsp p {
+      position: absolute;
+      top: 0.4em;
+      left: 1.15em;
+      margin: 0;
+      padding: 0;
+      transition: .5s;
+      color: #25D366;
+    }
+    
+    .wsp svg {
+      position: absolute;
+      top: 0.45em;
+      right: 0.5em;
+      margin: 0;
+      padding: 0;
+      opacity: 0;
+      transition: 0.5s;
+      height: 1em;
+      fill: #fff
+    }
+    
+    .wsp:hover p {
+      left: 0.5em;
+      color: #fff
+    }
+    
+    .wsp:hover svg {
+      opacity: 1;
+    }
+    
+    .wsp:hover {
+      background-color: #25D366;
+    }
+    
+
+
+    
+  /* ////////////////   loader  /////////////////////// */
+  
+  .container {
+    width: 220px;
+    height: 220px;
+    top: 143%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+  }
+  
+  .container div {
+    width: 120px;
+    height: 120px;
+    top: 50px;
+    left: 50px;
+    display: block;
+    position: absolute;
+  }
+  
+  .topleft {
+    animation: tl 7.5s ease infinite
+  }
+  
+  .topright {
+    animation: tr 7.5s ease infinite
+  }
+  
+  .bottomleft {
+    animation: bl 7.5s ease infinite
+  }
+  
+  .bottomright {
+    animation: br 7.5s ease infinite
+  }
+  
+  .container div:before,
+  .container div:after {
+    display: block;
+    position: absolute;
+    content: ""
+  }
+  
+  .container div:before {
+    width: 50px;
+    height: 50px
+  }
+  
+  .topleft:before {
+    background: rgb(251, 189, 4);
+    top: 0;
+    left: 0;
+    border-radius: 100% 0 0 0
+  }
+  
+  .topright:before {
+    background: rgb(234, 67, 52);
+    top: 0;
+    right: 0;
+    border-radius: 0 100% 0 0
+  }
+  
+  .bottomleft:before {
+    background: rgb(52, 168, 83);
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 0 100%
+  }
+  
+  .bottomright:before {
+    background: rgb(67, 135, 244);
+    bottom: 0;
+    right: 0;
+    border-radius: 0 0 100% 0
+  }
+  
+  .container div:after {
+    background: rgb(33, 33, 33);
+    width: 25px;
+    height: 25px;
+    z-index: 1
+  }
+  
+  .topleft:after {
+    top: 25px;
+    left: 25px;
+    border-radius: 100% 0 0 0
+  }
+  
+  .topright:after {
+    top: 25px;
+    right: 25px;
+    border-radius: 0 100% 0 0
+  }
+  
+  .bottomleft:after {
+    bottom: 25px;
+    left: 25px;
+    border-radius: 0 0 0 100%
+  }
+  
+  .bottomright:after {
+    bottom: 25px;
+    right: 25px;
+    border-radius: 0 0 100% 0
+  }
+  
+  @keyframes tl {
+    0%,96%,100% {
+      transform: rotate(0deg)
+    }
+  
+    12% {
+      transform: rotate(-45deg)
+    }
+  
+    24% {
+      transform: rotate(-90deg)
+    }
+  
+    36% {
+      transform: rotate(-135deg)
+    }
+  
+    48% {
+      left: 50px;
+      transform: rotate(-180deg)
+    }
+  
+    60% {
+      left: 125px;
+      opacity: 1;
+      transform: rotate(-135deg)
+    }
+  
+    61%,95% {
+      opacity: 0
+    }
+  }
+  
+  @keyframes tr {
+    0% {
+      transform: rotate(0deg)
+    }
+  
+    12% {
+      transform: rotate(-45deg)
+    }
+  
+    24% {
+      transform: rotate(-90deg)
+    }
+  
+    36% {
+      transform: rotate(-135deg)
+    }
+  
+    48% {
+      transform: rotate(-180deg)
+    }
+  
+    60% {
+      transform: rotate(-225deg)
+    }
+  
+    72% {
+      transform: rotate(-270deg)
+    }
+  
+    84% {
+      transform: rotate(-315deg)
+    }
+  
+    96%,100% {
+      transform: rotate(-360deg)
+    }
+  }
+  
+  @keyframes bl {
+    0%,100% {
+      transform: rotate(0deg)
+    }
+  
+    12% {
+      transform: rotate(-45deg)
+    }
+  
+    24% {
+      left: 50px;
+      transform: rotate(-90deg)
+    }
+  
+    36% {
+      left: 125px;
+      opacity: 1;
+      transform: rotate(-45deg)
+    }
+  
+    37%,83% {
+      opacity: 0
+    }
+  
+    84% {
+      left: -25px;
+      opacity: 1;
+      transform: rotate(-45deg)
+    }
+  
+    96% {
+      left: 50px;
+      transform: rotate(0deg)
+    }
+  }
+  
+  @keyframes br {
+    0%,96%,100% {
+      transform: rotate(0deg)
+    }
+  
+    12% {
+      left: 125px;
+      opacity: 1;
+      transform: rotate(45deg)
+    }
+  
+    13%,59% {
+      opacity: 0
+    }
+  
+    60% {
+      left: -25px;
+      opacity: 1;
+      transform: rotate(45deg)
+    }
+  
+    72% {
+      left: 50px;
+      transform: rotate(90deg)
+    }
+  
+    84% {
+      transform: rotate(45deg)
+    }
+  }

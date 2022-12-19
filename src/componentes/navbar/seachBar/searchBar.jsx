@@ -23,6 +23,7 @@ const [state , setState] = useState('');
          <Link to={`/paginaPrincipal/filtrados/${state}`}>
          <button type="submit" onClick={limpiarState} className={style.button}>buscar</button>
         </Link>
+
         </div>
     )
 }

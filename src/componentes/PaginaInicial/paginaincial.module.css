@@ -1,64 +1,24 @@
-  /* .div{
-    display: flex;
-    
+
+
+.divm{
+  height: 500px;
+  width: 16%;
+  position: relative;
+  left: 40%;
+}
+
+  .span{
+    color: #000;
   }
-  .img{
-    position: absolute;
-    width: 100%;
-    height: 760px;
-  }
-  .home{
-    height: 30px;
-    width: 10%;
-    position: absolute;
-    top: 530px;
-    left: 45%;
-    border: 1px solid black;
-    z-index: 1;
-  }
-  
-  .home:hover {
-    width: 12%;
-    height: 33px;
-    transition: 2s;
-    cursor: pointer
-  }
-
-
-
-  @media(max-width: 760px){
-    .div{
-      display: flex;
-      
-    }
-    .img{
-      position: absolute;
-      width: 100%;
-      height: 100vh;
-    }
-    .home{
-      height: 20px;
-      width: 20%;
-      position: absolute;
-      top: 540px;
-      left: 39%;
-      border: 1px solid black;
-      z-index: 1;
-    }
-    
-   
-  } */
-
-
 
   .loader {
+    position: relative;
+
     width: 200px;
     height: 200px;
     box-sizing: border-box;
     border-radius: 50%;
     border-top: 5px solid #e74c3c;
-    position: relative;
-    left: 40%;
     top: 20vh;
     animation: load 2s linear infinite;
   }
@@ -95,6 +55,7 @@
     animation: a2 2s linear infinite;
   }
   
+  
   @keyframes load {
     to {
       transform: rotate(360deg);
@@ -107,13 +68,14 @@
     }
   }
 
+    
   .button {
     padding: 20px 60px;
     background-color:rgb(231, 227, 227);
     border: none;
     font-size: 18px;
     position: relative;
-    right: 1.8%;
+    
     top: 27vh;
     transition: 500ms;
   }
@@ -208,3 +170,66 @@
   .button:hover .right {
     height: 100%;
   }
+
+
+
+
+  /* ///////////////////////loading//////////////////// */
+
+
+
+
+  .spinner {
+    position: relative;
+    top: 210px;
+    left: 4%;
+    height: 50px;
+    width: max-content;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: monospace;
+    letter-spacing: 1em;
+    color: #020202;
+    filter: drop-shadow(0 0 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .spinner span {
+    animation: loading6454 1.75s ease infinite;
+   }
+   
+   .spinner span:nth-child(2) {
+    animation-delay: 0.25s;
+   }
+   
+   .spinner span:nth-child(3) {
+    animation-delay: 0.5s;
+   }
+   
+   .spinner span:nth-child(4) {
+    animation-delay: 0.75s;
+   }
+   
+   .spinner span:nth-child(5) {
+    animation-delay: 1s;
+   }
+   
+   .spinner span:nth-child(6) {
+    animation-delay: 1.25s;
+   }
+   
+   .spinner span:nth-child(7) {
+    animation-delay: 1.5s;
+   }
+   
+   @keyframes loading6454 {
+    0%, 100% {
+     transform: translateY(0);
+    }
+   
+    50% {
+     transform: translateY(-10px);
+    }
+   }

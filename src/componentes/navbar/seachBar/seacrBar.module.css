@@ -6,21 +6,21 @@ left: 74%;
 top: 20px;
 }
 .input{
-    height: 25px;
+    height: 30px;
     width: 45%;
     border: 1px solid rgb(33, 32, 32);
     border-radius: 3px;
 }
 .button{
     border: 1px solid rgb(12, 11, 11);
-    height: 29px;
+    height: 30px;
     width: 30%;
     font-size: 20px;
     color: rgb(12, 12, 12);
     background-color: white;
     border-radius: 3px;
     position: relative;
-    top: 2px;
+    top: 3px;
 }
 .button:hover{
     height: 32px;
@@ -63,3 +63,5 @@ top: 20px;
             cursor: pointer
         }
   }
+
+  

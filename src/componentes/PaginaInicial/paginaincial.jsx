@@ -6,14 +6,8 @@ const PaginaInicial = () => {
 
      return (
         <div  className={style.divm}>
-         {/* <div className={style.div} >
-           <img src="https://media.gq.com.mx/photos/60e9cc9c33c54bdef6761922/master/pass/E53RdQ5WQAIs7HC-scaled.jpg" className={style.img}/>   
-         </div>
-         <Link to='/paginaPrincipal'>
-           <button className={style.home} type='submit'>home</button>
-         </Link>  */}
          <div className={style.loader} >
-          <span>bienvenido</span>
+          <span className={style.span}>Loading...</span>
          </div>
 
          <Link to='/paginaPrincipal'>
@@ -25,6 +19,17 @@ const PaginaInicial = () => {
          <div className={style.right} ></div>
         </button>
         </Link> 
+
+        <div className={style.spinner}>
+           <span>L</span>
+           <span>O</span>
+           <span>A</span>
+           <span>D</span>
+           <span>I</span>
+           <span>N</span>
+           <span>G</span>
+
+        </div>
         </div>
       );
 }

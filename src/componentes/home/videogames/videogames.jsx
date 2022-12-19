@@ -71,12 +71,16 @@ const Videogames = (props)  => {
                      
                    })}
                </div>
-        
-              <div className={Style.botones}>      
-                   <button onClick={prevPage} className={Style.boton}>prev</button>
-                   <button onClick={nextPage} className={Style.boton}>next</button>
-                   <h2 className={Style.muestra}>{correnPage}</h2>
-              </div>
+
+      <div className={Style.botones}>  
+              <button className={Style.btn} onClick={prevPage}>
+               <span>prev</span><i></i>
+             </button>
+             <button className={Style.btn} onClick={nextPage}>
+               <span>next</span><i></i>
+             </button>
+             <h1 className={Style.muestra}>{correnPage}</h1>
+             </div>
         </div>
       );
 }
