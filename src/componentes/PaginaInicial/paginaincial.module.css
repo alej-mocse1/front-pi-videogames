@@ -2,9 +2,9 @@
 
 .divm{
   height: 500px;
-  width: 16%;
+  width: 1%;
   position: relative;
-  left: 40%;
+  left: 43%;
 }
 
   .span{
@@ -13,7 +13,6 @@
 
   .loader {
     position: relative;
-
     width: 200px;
     height: 200px;
     box-sizing: border-box;
@@ -74,8 +73,7 @@
     background-color:rgb(231, 227, 227);
     border: none;
     font-size: 18px;
-    position: relative;
-    
+    position: relative;  
     top: 27vh;
     transition: 500ms;
   }
@@ -181,7 +179,7 @@
 
   .spinner {
     position: relative;
-    top: 210px;
+    top: 240px;
     left: 4%;
     height: 50px;
     width: max-content;
@@ -194,6 +192,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 39px;
    }
    
    .spinner span {
@@ -233,3 +232,89 @@
      transform: translateY(-10px);
     }
    }
+
+
+
+
+   /* @media (max-width: 960px) {
+   
+    .spinner {
+      margin-top: 130px;
+     }
+  
+  
+    } */
+
+   @media (max-width: 761px) {
+
+     .divm{
+      height: 300px;
+      width: 1%;
+      position: relative;
+      left: 38%;
+    } 
+   
+  .spinner {
+    display: none;
+   }
+
+
+   .loader {
+    position: relative;
+    left: 22px;
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-top: 5px solid #e74c3c;
+    top: 20vh;
+    animation: load 2s linear infinite;
+  }
+  
+  .loader::before,.loader::after {
+    content: '';
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+  
+  .loader::before {
+    border-top: 5px solid #e67e22;
+    transform: rotate(120deg);
+  }
+  
+  .loader::after {
+    border-top: 5px solid #3498db;
+    transform: rotate(240deg);
+  }
+  
+  .loader span {
+    position: absolute;
+    font-size: small;
+    width: 120px;
+    height: 120px;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    animation: a2 2s linear infinite;
+  }
+
+  }
+
+
+  
+  @media (max-width: 414px) {
+
+    .divm{
+      height: 300px;
+      width: 1%;
+      position: relative;
+      left: 30%;
+    } 
+
+
+  }
